@@ -33,7 +33,7 @@ A modern, web-based resume builder that allows users to create, preview, and dow
 
 ## 🚀 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 (https://resume-builder-1v9o.vercel.app/)
 
 ---
 
@@ -43,3 +43,28 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/aribah123armin/resume-builder.git
+
+Install dependencies:
+
+npm install
+
+Run development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+🎯 Project Purpose
+
+This project was built to understand and implement real-world resume generation systems with live preview functionality. It demonstrates form handling, state management, and client-side PDF generation.
+
+👤 Author
+
+Aribah Armin
+📧 aribaharmin@gmail.com
+🌐 GitHub: https://github.com/aribah123armin
+
+📌 Note
+
+This project is built using free tools only and deployed on Vercel free hosting as part of an internship assignment.
