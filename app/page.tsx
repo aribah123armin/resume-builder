@@ -9,6 +9,8 @@ export default function Home() {
 
     const element = document.getElementById("resume");
 
+    if (!element) return; // ✅ FIX: prevents null crash
+
     html2pdf().from(element).save("resume.pdf");
   };
   const [form, setForm] = useState({
@@ -19,7 +21,7 @@ export default function Home() {
     education: "",
     experience: "",
   });
-  
+
 
   return (
     <main className="container">
